@@ -1,0 +1,132 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@500;700&display=swap');
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    margin-left: 120px;
+    margin-top: 87px;
+    width:243px;
+    height: 52.2px;
+    font-size: 24px;
+}
+.first-text p{
+    margin-left:120px;
+}
+.first-text h1{
+    height: 133px;
+    width: 582px;
+    margin-top: 178px;
+    font-size: 52px;
+}
+.first-text a{
+    text-decoration: none;
+    margin-left: 120px;
+    background: #c5235f;
+    width: 196px;
+    height: 44px;
+    margin-top: 511px;
+    border-radius: 41px;
+    Padding: 10px, 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-left: 5px;
+}
+.fas{
+    margin-left: 5px;
+}
+.start-journey{
+    display: flex;
+}
+/* --------------------
+       .main-camera
+----------------------------- */
+.main-camera{
+    height: 414px;
+    width: 440px;
+    margin-top: 104px;
+    margin-left: 133px;
+    margin-right: 165px;
+    overflow: hidden;
+}
+.main-camera:hover{
+    transform: scale(1.3);
+    transition: transform 2s ease-in-out;
+    display: block;
+}
+hr{
+    border: 1px solid gray;
+    margin: 50px;
+}
+/* popular collectiom */
+.section-tittle{
+    text-align: center;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.collection{
+    width: 329px;
+    height: 476px;
+    margin-left: 196px;
+    background-color: #f5f4f4;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.collection .collection-images img{
+    width: 300px;
+    height: 256px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+    margin-top: 14px;
+    border-radius: 10px;
+}
+.collection-name{
+    margin-top: 16px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+
+}
+.product-cost{
+    margin-top: 6px;
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+    
+}
+
+.product-rating{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* ---------------
+.fa-star
+------------------*/
+.fa-star{
+    font-size: 12px;
+    margin-left: 14px;
+    margin-top: 0px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE
+
+}
+.rating-point{
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 6px;
+}
+.product-details{
+    margin-left: 14px;
+}
