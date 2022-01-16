@@ -232,7 +232,70 @@ hr{
 }
 .more-button {
     text-align: right;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-right: 67px;
     
 }
+
+/* Optional-feature */
+.site{
+    display: flex;
+   
+}
+.site-img img{
+    width: 404px;
+    height: 270px;
+    margin-top: 100px;
+    margin-left: 165px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.726) ;
+}
+.site-info{
+    width: 610px;
+    height: 224px;
+    margin-left: 96px;
+    margin-top: 127px;
+    
+}
+.site-info a{
+    text-decoration: none;
+    background: #c5235f;
+    width: 196px;
+    height: 44px;
+    margin-top: 511px;
+    border-radius: 41px;
+    Padding: 10px, 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+/* --------------
+      .footer
+    -------------- */
+    footer{
+        background-color: #0A0826;
+        border-radius: 15px;
+    }
+    .footer-container{
+        margin-left: 550px;
+        width: 262px;
+        height: 139px;
+        color: white;
+        padding: auto;
+        margin-top: 20px;
+    }
+    .footer-title{
+        margin-bottom: 6px;
+        margin-top: 20px;
+    }
+    .footer-article{
+        font-size: small;
+        margin-top: 0px;
+    }
+    .footer-icon{
+        margin-left: 70px;
+    }
+   
+    
